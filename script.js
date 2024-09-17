@@ -3,7 +3,7 @@ import APIkey from "./secrets.js";
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.getElementById("inputText");
 const card = document.querySelector(".weatherInfo");
-// const APIkey = "707d4ece341909e0beb0997bbb0dd83c";
+
 
 weatherForm.addEventListener("submit" , async event => {
     event.preventDefault();
